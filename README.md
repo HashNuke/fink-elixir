@@ -1,2 +1,2 @@
 # fink-elixir
-Erlang client for CrashDump
+Elixir client for CrashDump
