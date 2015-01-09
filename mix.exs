@@ -2,15 +2,33 @@ defmodule Fink.Mixfile do
   use Mix.Project
 
   def project do
-
-  end
-
-  def package do
+    [
+      app: :fink,
+      version: "0.0.1",
+      elixir: "~> 1.0.0-rc1",
+      description: "Elixir client for https://crashdump.io",
+      package: package,
+      deps: deps
+    ]
   end
 
   def application do
+    [applications: [:fink]]
   end
 
-  def deps do
+  defp package do
+    [
+      files: ["lib", "mix.exs", "README.md", "LICENSE"],
+      contributors: ["Roman Gladkov"],
+      licenses: [""],
+      links: %{"GitHub" => "https://github.com/crashdumpio/fink-elixir",
+               "Docs" => "http://docs.crashdump.io"}
+    ]
+  end
+
+  defp deps do
+    [
+      {:fink, github: "crashdumpio/fink-erlang"}
+    ]
   end
 end
