@@ -1,10 +1,10 @@
 # fink-elixir
 Elixir client for CrashDump
 
-Dynalo
+Dynamo
 ======
 
-Integration with Dynalo
+Integration with Dynamo
 
 Weber
 =====
