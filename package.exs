@@ -1,5 +1,5 @@
 Expm.Package.new(
-  name: "fink",
+  name: "exfink",
   description: "Elixir client for https://crashdump.io",
   version: "0.0.1",
   keywords: [],

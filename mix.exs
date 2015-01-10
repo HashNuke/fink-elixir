@@ -1,9 +1,9 @@
-defmodule Fink.Mixfile do
+defmodule ExFink.Mixfile do
   use Mix.Project
 
   def project do
     [
-      app: :fink,
+      app: :exfink,
       version: "0.0.1",
       elixir: "~> 1.0.0-rc1",
       description: "Elixir client for https://crashdump.io",
@@ -14,7 +14,7 @@ defmodule Fink.Mixfile do
   end
 
   def application do
-    [applications: [:fink]]
+    [applications: [:exfink]]
   end
 
   defp package do
