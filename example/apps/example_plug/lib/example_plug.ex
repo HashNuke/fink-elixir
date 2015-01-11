@@ -1,0 +1,2 @@
+defmodule ExfinkPlug do
+end
