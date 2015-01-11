@@ -1,4 +1,4 @@
-defmodule ExFink.Main do
+defmodule ExFink.Weber do
   def stack do
     []
   end
