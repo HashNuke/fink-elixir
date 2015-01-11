@@ -1,2 +1,0 @@
-defmodule ExfinkDynamo do
-end

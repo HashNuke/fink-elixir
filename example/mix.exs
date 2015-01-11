@@ -11,10 +11,7 @@ defmodule Example.Mixfile do
 
   defp deps do
     [
-        {:exfink, github: "crashdumpio/fink-elixir"},
-        {:dynamo, github: "dynamo/dynamo", tag: "elixir-0.13.1"},
-        {:weber, github: "elixir-web/weber", tag: "v0.1.1"},
-        {:phoenix, github: "phoenixframework/phoenix", tag: "v0.7.2"}
+        {:exfink, github: "crashdumpio/fink-elixir"}
     ]
   end
 end

@@ -1,4 +1,0 @@
-ExfinkDynamo
-============
-
-** TODO: Add description **
