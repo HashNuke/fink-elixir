@@ -1,4 +1,4 @@
-defmodule ExFink.Dynamo do
+defmodule ExFink.Plug do
   def stack do
     []
   end
