@@ -14,7 +14,7 @@ defmodule ExfinkPlug.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [applications: [:sasl, :exfink]]
+    [applications: [:sasl, :exfink, :cowboy, :plug]]
   end
 
   # Dependencies can be Hex packages:
