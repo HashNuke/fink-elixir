@@ -3,19 +3,9 @@ defmodule Example.Mixfile do
 
   def project do
     [
-        app: :example,
-        version: "0.0.1",
+        apps_path: "apps",
         elixir: "~> 1.0",
         deps: deps
-    ]
-  end
-
-  def application do
-    [
-        applications: [
-          :sasl,
-          :exfink
-        ]
     ]
   end
 
