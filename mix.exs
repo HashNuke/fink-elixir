@@ -14,7 +14,9 @@ defmodule ExFink.Mixfile do
   end
 
   def application do
-    [applications: [:exfink]]
+    [
+        applications: [:fink]
+    ]
   end
 
   defp package do
