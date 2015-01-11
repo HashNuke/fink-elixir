@@ -1,6 +1,6 @@
 %{"cowboy": {:git, "git://github.com/ninenines/cowboy.git", "3d9078018d7f0a83a359b70c698d35e35fbb94f9", [tag: "1.0.1"]},
   "cowlib": {:git, "git://github.com/ninenines/cowlib.git", "d544a494af4dbc810fc9c15eaf5cc050cced1501", [ref: "1.0.0"]},
-  "exfink": {:git, "git://github.com/crashdumpio/fink-elixir.git", "598ff2ca83956b2ea45a188bf60a97d726f21499", []},
+  "exfink": {:git, "git://github.com/crashdumpio/fink-elixir.git", "a46291652812af8ee2c1d6cd5c984ce875b84f92", []},
   "fink": {:git, "git://github.com/crashdumpio/fink-erlang.git", "02d8f4ec46c396d3b926afa6ab2a976995522a0b", []},
   "jsx": {:git, "git://github.com/talentdeficit/jsx.git", "4d549dd8a990e282c3d57c5f73213674c05ebf07", [tag: "v2.1.1"]},
   "plug": {:git, "git://github.com/elixir-lang/plug.git", "70aca7097e56c6a8ea2577a3add556c2d33ca882", [tag: "v0.9.0"]},
