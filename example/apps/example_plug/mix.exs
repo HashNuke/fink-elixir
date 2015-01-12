@@ -11,12 +11,15 @@ defmodule ExfinkPlug.Mixfile do
   end
 
   def application do
-    [applications: [:sasl, :exfink, :cowboy, :plug]]
+    [
+      applications: [:sasl, :exfink, :cowboy, :plug],
+      mod: {ExfinkPlug, []}
+    ]
   end
 
   defp deps do
     [
-        {:cowboy, github: "ninenines/cowboy", tag: "1.0.1"},
+        {:cowboy, "~> 1.0", [hex: :cowboy]},
         {:plug, github: "elixir-lang/plug", tag: "v0.9.0"}
     ]
   end
