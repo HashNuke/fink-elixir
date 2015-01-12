@@ -4,7 +4,8 @@ defmodule ExFink.Plug do
     []
   end
 
-  def handle_error(conn, %{kind: kind, reason: reason, stack: stack}) do
-    :io.format "ERROR - ~p ~p - ~p - ~p", [conn, kind, reason, stack]
+  def handle_error(_conn, %{kind: kind, reason: reason, stack: _stack}) do
+    :io.format "ERROR - ~p - ~p", [kind, reason]
+    # ExFink.stacktrace kind, reason
   end
 end
