@@ -1,13 +1,18 @@
 defmodule ExfinkPlug.View do
-  import Plug.Conn
+  use Plug.Router
+  use Plug.ErrorHandler
 
-  def init(options) do
-    options
+  plug :match
+  plug :dispatch
+
+  match _ do
+    :lists.map 1
+    send_resp(conn, 200, "world")
   end
 
-  def call(conn, _opts) do
-    conn
-    |> put_resp_content_type("text/plain")
-    |> send_resp(200, "Hello world")
+  defp handle_errors(conn, error) do
+    ExFink.Plug.handle_error conn, error
+    send_resp(conn, conn.status, "Something went wrong")
   end
+
 end
