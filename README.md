@@ -6,10 +6,10 @@ ExFink is a wrapper around fink library
 Plug
 ====
 
-User sasl backend
+Use SASL backend
 
 ```elixir
-ExFink.add_sasl_backend
+>ExFink.add_sasl_backend
 ```
 
 or `ExFink.Plug` module
