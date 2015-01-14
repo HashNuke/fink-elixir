@@ -14,5 +14,4 @@ defmodule ExfinkPlug.View do
     ExFink.Plug.handle_error conn, error
     send_resp(conn, conn.status, "Something went wrong")
   end
-
 end

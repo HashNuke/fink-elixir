@@ -4,5 +4,4 @@ defmodule ExfinkPlug do
   def start(_type, _args) do
     ExfinkPlug.Supervisor.start_link
   end
-
 end
