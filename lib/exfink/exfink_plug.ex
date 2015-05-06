@@ -2,14 +2,14 @@ defmodule ExFink.Plug do
 
   def get_request_info(conn) do
     [
-        {"path", ""},
-        {"method", ""},
-        {"args_get", ""},
-        {"args_post", ""},
-        {"module", ""},
-        {"session", ""},
-        {"peer", ""},
-        {"headers", ""}
+      {"path", ""},
+      {"method", ""},
+      {"args_get", ""},
+      {"args_post", ""},
+      {"module", ""},
+      {"session", ""},
+      {"peer", ""},
+      {"headers", ""}
     ]
   end
 

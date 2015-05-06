@@ -1,4 +1,0 @@
-ExfinkPlug
-==========
-
-** TODO: Add description **
