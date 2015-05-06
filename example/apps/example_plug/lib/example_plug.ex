@@ -7,7 +7,7 @@ defmodule ExfinkPlug.View do
 
   match _ do
     :lists.map 1
-    send_resp(conn, 200, "world")
+    send_resp conn, 200, "world"
   end
 
   defp handle_errors(conn, error) do

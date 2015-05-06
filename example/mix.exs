@@ -3,15 +3,15 @@ defmodule Example.Mixfile do
 
   def project do
     [
-        apps_path: "apps",
-        elixir: "~> 1.0",
-        deps: deps
+      apps_path: "apps",
+      elixir: "~> 1.0",
+      deps: deps
     ]
   end
 
   defp deps do
     [
-        {:exfink, github: "crashdumpio/fink-elixir"}
+      {:exfink, github: "crashdumpio/fink-elixir"}
     ]
   end
 end
